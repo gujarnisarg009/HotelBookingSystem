@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net10.0\HotelBooking.Application.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\HotelBooking.Application.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net10.0\HotelBooking.Application.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\HotelBooking.Application.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="14.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelBooking.Domain\HotelBooking.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net10.0\HotelBoo.0ED144E9.Up2Date" />
+    <None Include="obj\Debug\net10.0\HotelBooking.Application.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\HotelBooking.Application.assets.cache" />
+    <None Include="obj\Debug\net10.0\HotelBooking.Application.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net10.0\HotelBooking.Application.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net10.0\HotelBooking.Application.dll" />
+    <None Include="obj\Debug\net10.0\HotelBooking.Application.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net10.0\HotelBooking.Application.pdb" />
+    <None Include="obj\Debug\net10.0\refint\HotelBooking.Application.dll" />
+    <None Include="obj\Debug\net10.0\ref\HotelBooking.Application.dll" />
+    <None Include="obj\HotelBooking.Application.csproj.nuget.g.props" />
+    <None Include="obj\HotelBooking.Application.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
